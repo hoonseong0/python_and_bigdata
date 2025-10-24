@@ -1,0 +1,26 @@
+'''
+이름: 서훈성
+학과: 인공지능소프트웨어학과
+
+'''
+
+# a = [10,20,30]
+# b = [0, 10, 20, 30]
+# c = [0, '']
+# print(any(a)), print(any(b)), print(any(c))
+# print(all(a)), print(all(b)), print(all(c))
+
+#1. 과일 리스트 
+
+fruits = []
+for i in range(3):
+    name = input('좋아하는 과일의 이름을 입력하시오: ')
+    fruits.append(name)
+
+name = input('과일의 이름을 입력하세요: ')
+if name in fruits:
+    print('이 과일은 당신이 좋아하는 과일입니다.')
+else:
+    print('이 과일은 당신이 좋아하는 과일이 아닙니다.')
+    
+
